@@ -22,8 +22,8 @@ def txt2list(array):
         arrayb.append(i.strip("\n"))
     return arrayb
 
-file_p=open(r"C:\Users\wuyiming\Desktop\fa\code\agent_300k.txt",'r') #positive samples
-file_n=open(r"C:\Users\wuyiming\Desktop\fa\code\other_borrowers.txt",'r') # negative samples
+file_p=open(r"Fraud-agents-detection/Agent detecction model/agent_300k.txt",'r') #positive samples
+file_n=open(r"Fraud-agents-detection/Agent detecction model/other_borrowers.txt",'r') # negative samples
 p_lines=file_p.readlines()
 n_lines=file_n.readlines()
 
