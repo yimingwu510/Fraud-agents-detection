@@ -7,7 +7,7 @@ The first stage focuses on agent detection from all borrowers, and the second st
 ## Usage
 
 The first stage - Agent Detection Model
-* Rule Based Detection Model
+* Rule Based Agent Detection
 * Machine Learning based detection Model
 
 The second stage - Fraud-agent Detection Model
