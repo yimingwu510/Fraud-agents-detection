@@ -71,6 +71,5 @@ with open(r"Fraud-agents-detection/Agent detecction model/Rule based Agent Detec
 
         if c1>c2:
            # print(c1,c2,m)
-           # print(list(phone_set)[m])
-           print(list(phone_set)[m])
-
+            print(list(phone_set)[m])
+            f_w.write((list(phone_set)[m]))
