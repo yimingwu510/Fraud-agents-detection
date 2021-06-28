@@ -8,7 +8,7 @@ The first stage focuses on agent detection from all borrowers, and the second st
 
 The first stage - Agent Detection Model
 * Rule Based Agent Detection
-* Machine Learning based detection Model
+* Machine Learning based Agent Detection
 
 The second stage - Fraud-agent Detection Model
 * Temporary Fraud-agent Detection Model
