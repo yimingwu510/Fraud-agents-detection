@@ -20,8 +20,8 @@ def txt2list(array):
 
 file_p=open(r"Fraud-agents-detection/Fraud-Agent Detection Model/Temporary Fraud-agent Detection Moderl/groundtruth.txt",'r') 
 # positive samples - groundtruth. 3326 fraud-agents
-file_n=open(r"Fraud-agents-detection/Fraud-Agent Detection Model/Temporary Fraud-agent Detection Moderl/all_agents.txt",'r') 
-# negative samples - all detected agents. 300k agents
+file_n=open(r"Fraud-agents-detection/Fraud-Agent Detection Model/Temporary Fraud-agent Detection Moderl/agents.txt",'r') 
+# negative samples - 300k agents
 file_result=open(r"Fraud-agents-detection/Fraud-Agent Detection Model/Temporary Fraud-agent Detection Moderl/expanded_agents.txt",'w')
 p_lines=file_p.readlines()
 n_lines=file_n.readlines()
