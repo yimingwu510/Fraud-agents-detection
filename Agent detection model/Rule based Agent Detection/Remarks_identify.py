@@ -1,9 +1,9 @@
 import os
 
-f_lcs=open(r"C:\Users\wuyiming\Desktop\黑中介\code\1-address book-lcs.txt",'r',encoding="utf-8")
+f_lcs=open(r"Fraud-agents-detection/Agent detecction model/Rule based Agent Detection/1-address book-lcs.txt",'r',encoding="utf-8")
 lcs_lines=f_lcs.readlines()
 
-f_w=open(r"C:\Users\wuyiming\Desktop\黑中介\code\2-address book-lcs.txt",'w',encoding="utf-8")
+f_w=open(r"Fraud-agents-detection/Agent detecction model/Rule based Agent Detection/2-address book-lcs.txt",'w',encoding="utf-8")
 
 def find_lcsubstr(s1, s2):
     m = [[0 for i in range(len(s2) + 1)] for j in range(len(s1) + 1)]  
@@ -18,7 +18,7 @@ def find_lcsubstr(s1, s2):
                     p = i + 1
     return s1[p - mmax:p], mmax  
 
-with open(r"C:\Users\wuyiming\Desktop\黑中介\code\2-address book.txt",'r',encoding="utf-8") as f:
+with open(r"Fraud-agents-detection/Agent detecction model/Rule based Agent Detection/2-address book.txt",'r',encoding="utf-8") as f:
     lines=f.readlines()
     remarks=[]
     all_remark=[]
